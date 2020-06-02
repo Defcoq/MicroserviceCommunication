@@ -1,0 +1,11 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\obj\Debug\netstandard2.1\BookShop.API.Client.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\obj\Debug\netstandard2.1\BookShop.API.Client.AssemblyInfo.cs
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\bin\Debug\netstandard2.1\BookShop.API.Client.deps.json
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\bin\Debug\netstandard2.1\BookShop.API.Client.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\bin\Debug\netstandard2.1\BookShop.API.Client.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\bin\Debug\netstandard2.1\BookShop.API.Contract.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\bin\Debug\netstandard2.1\BookShop.API.Contract.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\obj\Debug\netstandard2.1\BookShop.API.Client.csprojAssemblyReference.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\obj\Debug\netstandard2.1\BookShop.API.Client.csproj.CopyComplete
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\obj\Debug\netstandard2.1\BookShop.API.Client.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Client\obj\Debug\netstandard2.1\BookShop.API.Client.pdb

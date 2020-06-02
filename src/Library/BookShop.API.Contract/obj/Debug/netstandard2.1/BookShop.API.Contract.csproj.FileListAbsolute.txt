@@ -1,0 +1,7 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\bin\Debug\netstandard2.1\BookShop.API.Contract.deps.json
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\bin\Debug\netstandard2.1\BookShop.API.Contract.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\bin\Debug\netstandard2.1\BookShop.API.Contract.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\obj\Debug\netstandard2.1\BookShop.API.Contract.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\obj\Debug\netstandard2.1\BookShop.API.Contract.AssemblyInfo.cs
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\obj\Debug\netstandard2.1\BookShop.API.Contract.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\BookShop.API.Contract\obj\Debug\netstandard2.1\BookShop.API.Contract.pdb

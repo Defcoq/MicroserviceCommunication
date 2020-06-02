@@ -1,0 +1,11 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\bin\Debug\netstandard2.1\EventBusRabbitMQ.deps.json
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\bin\Debug\netstandard2.1\EventBusRabbitMQ.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\bin\Debug\netstandard2.1\EventBusRabbitMQ.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\bin\Debug\netstandard2.1\EventBus.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\bin\Debug\netstandard2.1\EventBus.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\obj\Debug\netstandard2.1\EventBusRabbitMQ.csprojAssemblyReference.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\obj\Debug\netstandard2.1\EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\obj\Debug\netstandard2.1\EventBusRabbitMQ.AssemblyInfo.cs
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\obj\Debug\netstandard2.1\EventBusRabbitMQ.csproj.CopyComplete
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\obj\Debug\netstandard2.1\EventBusRabbitMQ.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBusRabbitMQ\obj\Debug\netstandard2.1\EventBusRabbitMQ.pdb

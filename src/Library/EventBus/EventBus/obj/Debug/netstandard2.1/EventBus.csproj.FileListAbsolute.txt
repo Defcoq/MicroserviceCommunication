@@ -1,0 +1,7 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\bin\Debug\netstandard2.1\EventBus.deps.json
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\bin\Debug\netstandard2.1\EventBus.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\bin\Debug\netstandard2.1\EventBus.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\obj\Debug\netstandard2.1\EventBus.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\obj\Debug\netstandard2.1\EventBus.AssemblyInfo.cs
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\obj\Debug\netstandard2.1\EventBus.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\Library\EventBus\EventBus\obj\Debug\netstandard2.1\EventBus.pdb
