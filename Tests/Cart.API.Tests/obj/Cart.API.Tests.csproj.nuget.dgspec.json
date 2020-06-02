@@ -1,0 +1,523 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.API.Tests\\Cart.API.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.API\\BookCart.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.API\\BookCart.API.csproj",
+        "projectName": "BookCart.API",
+        "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.API\\BookCart.API.csproj",
+        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
+        "outputPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj"
+              },
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj"
+              },
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj",
+        "projectName": "BookCart.Domain",
+        "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj",
+        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
+        "outputPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj",
+        "projectName": "BookCart.EFRepository",
+        "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj",
+        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
+        "outputPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj"
+              },
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj",
+        "projectName": "BookCart.Services",
+        "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj",
+        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
+        "outputPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.API.Tests\\Cart.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.API.Tests\\Cart.API.Tests.csproj",
+        "projectName": "Cart.API.Tests",
+        "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.API.Tests\\Cart.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
+        "outputPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.API.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.API\\BookCart.API.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.API\\BookCart.API.csproj"
+              },
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.Fixtures\\Cart.Fixtures.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.Fixtures\\Cart.Fixtures.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.0.0-beta0002, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.Fixtures\\Cart.Fixtures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.Fixtures\\Cart.Fixtures.csproj",
+        "projectName": "Cart.Fixtures",
+        "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.Fixtures\\Cart.Fixtures.csproj",
+        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
+        "outputPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\Tests\\Cart.Fixtures\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Domain\\BookCart.Domain.csproj"
+              },
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.EFRepository\\BookCart.EFRepository.csproj"
+              },
+              "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj": {
+                "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookCart.Services\\BookCart.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

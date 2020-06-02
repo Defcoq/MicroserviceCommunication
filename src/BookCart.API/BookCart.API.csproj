@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookCart.Domain\BookCart.Domain.csproj" />
+    <ProjectReference Include="..\BookCart.EFRepository\BookCart.EFRepository.csproj" />
+    <ProjectReference Include="..\BookCart.Services\BookCart.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

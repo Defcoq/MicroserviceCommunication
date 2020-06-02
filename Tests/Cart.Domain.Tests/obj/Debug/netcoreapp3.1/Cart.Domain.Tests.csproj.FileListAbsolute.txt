@@ -1,0 +1,3 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\Tests\Cart.Domain.Tests\obj\Debug\netcoreapp3.1\Cart.Domain.Tests.csprojAssemblyReference.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\Tests\Cart.Domain.Tests\obj\Debug\netcoreapp3.1\Cart.Domain.Tests.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\Tests\Cart.Domain.Tests\obj\Debug\netcoreapp3.1\Cart.Domain.Tests.AssemblyInfo.cs

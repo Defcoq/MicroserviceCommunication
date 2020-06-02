@@ -1,0 +1,8 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\obj\Debug\netstandard2.1\BookCart.Domain.csprojAssemblyReference.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\obj\Debug\netstandard2.1\BookCart.Domain.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\obj\Debug\netstandard2.1\BookCart.Domain.AssemblyInfo.cs
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\bin\Debug\netstandard2.1\BookCart.Domain.deps.json
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\bin\Debug\netstandard2.1\BookCart.Domain.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\bin\Debug\netstandard2.1\BookCart.Domain.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\obj\Debug\netstandard2.1\BookCart.Domain.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Domain\obj\Debug\netstandard2.1\BookCart.Domain.pdb

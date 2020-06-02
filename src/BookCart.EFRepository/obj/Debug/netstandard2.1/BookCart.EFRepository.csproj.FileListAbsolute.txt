@@ -1,0 +1,15 @@
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\obj\Debug\netstandard2.1\BookCart.EFRepository.csprojAssemblyReference.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\obj\Debug\netstandard2.1\BookCart.EFRepository.AssemblyInfoInputs.cache
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\obj\Debug\netstandard2.1\BookCart.EFRepository.AssemblyInfo.cs
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.EFRepository.deps.json
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.EFRepository.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.EFRepository.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.Domain.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.Services.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\Catalog.API.Client.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\Catalog.API.Contract.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.Domain.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\bin\Debug\netstandard2.1\BookCart.Services.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\obj\Debug\netstandard2.1\BookCart.EFRepository.csproj.CopyComplete
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\obj\Debug\netstandard2.1\BookCart.EFRepository.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.EFRepository\obj\Debug\netstandard2.1\BookCart.EFRepository.pdb

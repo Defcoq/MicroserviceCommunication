@@ -11,11 +11,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Polly;
 
 namespace BookShop.API
 {
@@ -50,6 +52,8 @@ namespace BookShop.API
                 app.UseDeveloperExceptionPage();
             }
 
+            ExecuteMigrations(app, env);
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -60,6 +64,22 @@ namespace BookShop.API
             {
                 endpoints.MapControllers();
             });
+        }
+
+        private void ExecuteMigrations(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.EnvironmentName == "Testing") return;
+
+            var retry = Policy.Handle<SqlException>()
+                .WaitAndRetry(new TimeSpan[]
+                {
+                    TimeSpan.FromSeconds(2),
+                    TimeSpan.FromSeconds(6),
+                    TimeSpan.FromSeconds(12)
+                });
+
+            retry.Execute(() =>
+                app.ApplicationServices.GetService<BookShopContext>().Database.Migrate());
         }
     }
 }
