@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/4.9.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.9.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -834,7 +856,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -862,6 +884,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
+      "RabbitMQ.Client/6.0.0-rc1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -2463,6 +2494,15 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2601,10 +2641,77 @@
         "runtime": {
           "bin/placeholder/BookShop.Services.dll": {}
         }
+      },
+      "EventBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/EventBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBus.dll": {}
+        }
+      },
+      "EventBusRabbitMQ/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Autofac": "4.9.4",
+          "EventBus": "1.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.Extensions.Logging": "3.1.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Polly": "7.2.0",
+          "RabbitMQ.Client": "6.0.0-rc1",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/EventBusRabbitMQ.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBusRabbitMQ.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/4.9.4": {
+      "sha512": "dYiDG4yoV7GDCoOc66d1sqMmg2gwDyomHKgATuMfhFzYxVpWEltToHVHXI3I9vOEvIXE55S4OZPY0ldiZmZtpA==",
+      "type": "package",
+      "path": "autofac/4.9.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.4.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/5.0.1": {
+      "sha512": "92/AmuykrdvaLlE8Y4sc4SlX2RrCeClUqddjNi7cAYsOsVD/jq5JXDP1ZhHSBan4P/o7AKjpxjD/MrPTO0DHRw==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "AutoMapper/9.0.0": {
       "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "type": "package",
@@ -3915,10 +4022,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3941,8 +4048,9 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "NuGet.Frameworks/4.7.0": {
@@ -3983,6 +4091,24 @@
         "lib/netstandard2.0/Polly.xml",
         "polly.7.2.1.nupkg.sha512",
         "polly.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/6.0.0-rc1": {
+      "sha512": "3O7AWigTProdm0J4cYWDfSYhUvFwy4JKo/LZXea/VuzmMpYjEH6U/APjfe1bnRtEs/EvmTPVU/M0AqQ7F1Eatg==",
+      "type": "package",
+      "path": "rabbitmq.client/6.0.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net452/RabbitMQ.Client.dll",
+        "lib/net452/RabbitMQ.Client.xml",
+        "lib/netstandard1.5/RabbitMQ.Client.dll",
+        "lib/netstandard1.5/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.0.0-rc1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -8047,6 +8173,50 @@
         "system.threading.timer.nuspec"
       ]
     },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Xml.ReaderWriter/4.3.0": {
       "sha512": "GrprA+Z0RUXaR4N7/eW71j1rgMnEnEVlgii49GZyAjTH7uliMnrOU3HNFBr6fEDBCJCIdlVNq9hHbaDR621XBA==",
       "type": "package",
@@ -8309,12 +8479,25 @@
       "type": "project",
       "path": "../BookShop.Services/BookShop.Services.csproj",
       "msbuildProject": "../BookShop.Services/BookShop.Services.csproj"
+    },
+    "EventBus/1.0.0": {
+      "type": "project",
+      "path": "../Library/EventBus/EventBus/EventBus.csproj",
+      "msbuildProject": "../Library/EventBus/EventBus/EventBus.csproj"
+    },
+    "EventBusRabbitMQ/1.0.0": {
+      "type": "project",
+      "path": "../Library/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj",
+      "msbuildProject": "../Library/EventBus/EventBusRabbitMQ/EventBusRabbitMQ.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Autofac.Extensions.DependencyInjection >= 5.0.1",
       "BookShop.EFRepository >= 1.0.0",
       "BookShop.Services >= 1.0.0",
+      "EventBus >= 1.0.0",
+      "EventBusRabbitMQ >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
@@ -8362,6 +8545,12 @@
             },
             "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookShop.Services\\BookShop.Services.csproj": {
               "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\BookShop.Services\\BookShop.Services.csproj"
+            },
+            "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\Library\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+              "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\Library\\EventBus\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+            },
+            "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\Library\\EventBus\\EventBus\\EventBus.csproj": {
+              "projectPath": "C:\\Worksapce\\Dot.netCoreSample\\Hands-On RESTful Web Services with ASP.NET Core 3\\DemoLocal\\BookShop.API\\src\\Library\\EventBus\\EventBus\\EventBus.csproj"
             }
           }
         }
@@ -8375,6 +8564,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.0, )"

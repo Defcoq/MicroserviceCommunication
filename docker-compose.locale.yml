@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-  catalog_api:
+  bookshop_api:
     container_name: bookshop_api
     build:
       context: .
@@ -12,15 +12,50 @@ services:
     ports:
       - 5000:5000
     depends_on:
-      - catalog_db
+      - bookshop_db
+      - bookshop_esb
       
-  catalog_db:
-    container_name: catalog_db
-    image: microsoft/mssql-server-linux
+  bookshop_db:
+    container_name: bookshop_db
+    image: mcr.microsoft.com/mssql/server:2017-latest 
     networks:
       - my_network
     env_file:
       - containers/db/db.env
+    ports:
+      - "5433:1433"
+
+  bookshop_esb:
+    container_name: bookshop_esb
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - my_network
+
+  cart_api:
+        container_name: cart_api
+        build:
+            context: .
+            dockerfile: containers/cart/Dockerfile
+        env_file:
+            - containers/cart/cart.env
+        networks:
+            - my_network
+        ports:
+            - 5002:5002
+        depends_on:
+            - cart_db
+    cart_db:
+        container_name: cart_db
+        networks:
+            - my_network
+        env_file:
+            - containers/cart/cart.env
+        ports:
+            - 6378:6378
+        image: redis:alpine
       
 networks:
   my_network:

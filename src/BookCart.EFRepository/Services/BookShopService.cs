@@ -4,16 +4,16 @@ using System.Threading;
 using System.Threading.Tasks;
 using Cart.Domain.Responses.Cart;
 using Cart.Domain.Services;
-using Catalog.API.Client;
-using Catalog.API.Contract.Item;
+using BookShop.API.Client;
+using BookShop.API.Contract.Item;
 
 namespace Cart.Infrastructure.Services
 {
-    public class CatalogService : ICatalogService
+    public class BookShopService : IBookShopService
     {
-        private readonly ICatalogClient _catalogClient;
+        private readonly IBookShopClient _catalogClient;
 
-        public CatalogService(ICatalogClient catalogClient)
+        public BookShopService(IBookShopClient catalogClient)
         {
             _catalogClient = catalogClient;
         }
@@ -39,7 +39,7 @@ namespace Cart.Infrastructure.Services
             item.LabelName = result.LabelName;
             item.Name = result.Name;
             item.Price = result.Price.Amount.ToString(CultureInfo.InvariantCulture);
-            item.ArtistName = result.Artist.ArtistName;
+            item.ArtistName = result.Author.AuthorName;
             item.GenreDescription = result.Genre.GenreDescription;
             item.PictureUri = result.PictureUri;
 

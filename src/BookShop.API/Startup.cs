@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using BookShop.API.Extensions;
 using BookShop.Domain.Repositories;
 using BookShop.EFRepository;
@@ -13,6 +15,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.eShopOnContainers.BuildingBlocks.EventBus.Abstractions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,17 +34,24 @@ namespace BookShop.API
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
         
             services.AddBookShopContext(Configuration.GetSection("DataSource:ConnectionString").Value)
             .AddScoped<IBookRepository, BookRepository>()
             .AddScoped<IAuthorRepository, AuthorRepository>()
             .AddScoped<IGenreRepository, GenreRepository>()
+            .AddIntegrationServices(Configuration)
+            .AddEventBus(Configuration)
             .AddMappers()
             .AddServices()
             .AddControllers()
             .AddValidation();
+
+            var container = new ContainerBuilder();
+            container.Populate(services);
+
+            return new AutofacServiceProvider(container.Build());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -80,6 +90,13 @@ namespace BookShop.API
 
             retry.Execute(() =>
                 app.ApplicationServices.GetService<BookShopContext>().Database.Migrate());
+        }
+
+        protected virtual void ConfigureEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+          //  eventBus.Subscribe<OrderStatusChangedToAwaitingValidationIntegrationEvent, OrderStatusChangedToAwaitingValidationIntegrationEventHandler>();
+           // eventBus.Subscribe<OrderStatusChangedToPaidIntegrationEvent, OrderStatusChangedToPaidIntegrationEventHandler>();
         }
     }
 }

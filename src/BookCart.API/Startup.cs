@@ -35,8 +35,8 @@ namespace Cart.API
 
             services
                 .AddScoped<ICartRepository, CartRepository>()
-                .AddScoped<ICatalogService, CatalogService>()
-                .AddCatalogService(new Uri(Configuration["CatalogApiUrl"]))
+                .AddScoped<IBookShopService, BookShopService>()
+                .AddBookShopService(new Uri(Configuration["BookShopApiUrl"]))
                 .AddMediatR(AppDomain.CurrentDomain.GetAssemblies())
                 .AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies())
                 .AddEventBus(Configuration)

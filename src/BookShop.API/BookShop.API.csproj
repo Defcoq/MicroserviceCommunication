@@ -7,7 +7,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -18,6 +20,8 @@
   <ItemGroup>
     <ProjectReference Include="..\BookShop.EFRepository\BookShop.EFRepository.csproj" />
     <ProjectReference Include="..\BookShop.Services\BookShop.Services.csproj" />
+    <ProjectReference Include="..\Library\EventBus\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
+    <ProjectReference Include="..\Library\EventBus\EventBus\EventBus.csproj" />
   </ItemGroup>
 
 

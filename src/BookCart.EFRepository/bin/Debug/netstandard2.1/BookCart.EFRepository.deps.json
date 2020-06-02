@@ -18,8 +18,8 @@
           "Polly": "7.2.0",
           "RabbitMQ.Client": "4.1.1",
           "StackExchange.Redis": "2.0.601",
-          "Catalog.API.Client": "1.0.0.0",
-          "Catalog.API.Contract": "1.0.0.0"
+          "BookShop.API.Client": "1.0.0.0",
+          "BookShop.API.Contract": "1.0.0.0"
         },
         "runtime": {
           "BookCart.EFRepository.dll": {}
@@ -1223,17 +1223,17 @@
           "BookCart.Services.dll": {}
         }
       },
-      "Catalog.API.Client/1.0.0.0": {
+      "BookShop.API.Client/1.0.0.0": {
         "runtime": {
-          "Catalog.API.Client.dll": {
+          "BookShop.API.Client.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "Catalog.API.Contract/1.0.0.0": {
+      "BookShop.API.Contract/1.0.0.0": {
         "runtime": {
-          "Catalog.API.Contract.dll": {
+          "BookShop.API.Contract.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1978,12 +1978,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Catalog.API.Client/1.0.0.0": {
+    "BookShop.API.Client/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Catalog.API.Contract/1.0.0.0": {
+    "BookShop.API.Contract/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

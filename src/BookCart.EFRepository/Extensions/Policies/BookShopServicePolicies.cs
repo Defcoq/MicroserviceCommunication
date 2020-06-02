@@ -6,7 +6,7 @@ using Polly.Extensions.Http;
 
 namespace Cart.Infrastructure.Extensions.Policies
 {
-    public static class CatalogServicePolicies
+    public static class BookShopServicePolicies
     {
         public static IAsyncPolicy<HttpResponseMessage> RetryPolicy()
         {

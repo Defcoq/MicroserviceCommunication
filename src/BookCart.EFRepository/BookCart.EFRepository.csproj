@@ -20,6 +20,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="BookShop.API.Client">
+      <HintPath>ExternalDll\BookShop.API.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="BookShop.API.Contract">
+      <HintPath>ExternalDll\BookShop.API.Contract.dll</HintPath>
+    </Reference>
     <Reference Include="Catalog.API.Client">
       <HintPath>ExternalDll\Catalog.API.Client.dll</HintPath>
     </Reference>
