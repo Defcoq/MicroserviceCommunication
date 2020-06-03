@@ -7,6 +7,7 @@ using Autofac.Extensions.DependencyInjection;
 using BookShop.API.Extensions;
 using BookShop.Domain.Repositories;
 using BookShop.EFRepository;
+using BookShop.EFRepository.Extensions;
 using BookShop.EFRepository.Repositories;
 using BookShop.Services.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -41,8 +42,9 @@ namespace BookShop.API
             .AddScoped<IBookRepository, BookRepository>()
             .AddScoped<IAuthorRepository, AuthorRepository>()
             .AddScoped<IGenreRepository, GenreRepository>()
-            .AddIntegrationServices(Configuration)
-            .AddEventBus(Configuration)
+           // .AddIntegrationServices(Configuration)
+           // .AddEventBus(Configuration)
+            .AddEventBusCustom(Configuration)
             .AddMappers()
             .AddServices()
             .AddControllers()

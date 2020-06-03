@@ -1,0 +1,17 @@
+services:
+  bookshop.api:
+    build:
+      context: C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET
+        Core 3\DemoLocal\BookShop.API
+      dockerfile: src/BookShop.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: bookshopapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\jpierre.deffofotso\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\jpierre.deffofotso\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

@@ -7,7 +7,7 @@ namespace Cart.Infrastructure.Extensions
 {
     public static class EventsExtensions
     {
-        public static IServiceCollection AddEventBus(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddEventBusCustom(this IServiceCollection services, IConfiguration configuration)
         {
             var config = new EventBusSettings();
             configuration.Bind("EventBus", config);

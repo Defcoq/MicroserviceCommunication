@@ -13,6 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BookCart.Domain\BookCart.Domain.csproj" />
+    <ProjectReference Include="..\Library\EventBus\EventBusRabbitMQ\EventBusRabbitMQ.csproj" />
+    <ProjectReference Include="..\Library\EventBus\EventBus\EventBus.csproj" />
   </ItemGroup>
 
 </Project>

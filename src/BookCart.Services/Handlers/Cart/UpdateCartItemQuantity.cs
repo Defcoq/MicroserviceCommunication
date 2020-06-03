@@ -13,11 +13,11 @@ namespace Cart.Domain.Handlers.Cart
 {
     public class UpdateCartItemQuantity : IRequestHandler<UpdateCartItemQuantityCommand, CartExtendedResponse>
     {
-        private readonly ICatalogService _catalogService;
+        private readonly IBookShopService _catalogService;
         private readonly IMapper _mapper;
         private readonly ICartRepository _repository;
 
-        public UpdateCartItemQuantity(ICartRepository repository, IMapper mapper, ICatalogService catalogService)
+        public UpdateCartItemQuantity(ICartRepository repository, IMapper mapper, IBookShopService catalogService)
         {
             _repository = repository;
             _mapper = mapper;

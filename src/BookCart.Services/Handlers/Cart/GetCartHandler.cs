@@ -12,7 +12,7 @@ namespace Cart.Domain.Handlers.Cart
 {
     public class GetCartHandler : IRequestHandler<GetCartCommand, CartExtendedResponse>
     {
-        private readonly ICatalogService _catalogService;
+        private readonly IBookShopService _catalogService;
         private readonly IMapper _mapper;
         private readonly ICartRepository _repository;
 
@@ -20,7 +20,7 @@ namespace Cart.Domain.Handlers.Cart
         public GetCartHandler(
             ICartRepository repository,
             IMapper mapper,
-            ICatalogService catalogService)
+            IBookShopService catalogService)
         {
             _repository = repository;
             _mapper = mapper;

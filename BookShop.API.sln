@@ -51,9 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cart.API.Tests", "Tests\Car
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{6FE99EC4-AB81-49A7-836C-16BF02A1F826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.API.Contract", "src\Library\BookShop.API.Contract\BookShop.API.Contract.csproj", "{C88202C1-E388-4F1C-AF0A-534C8402601D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.API.Contract", "src\Library\BookShop.API.Contract\BookShop.API.Contract.csproj", "{C88202C1-E388-4F1C-AF0A-534C8402601D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.API.Client", "src\Library\BookShop.API.Client\BookShop.API.Client.csproj", "{7A0FF0A9-4EDD-4DBD-BA26-1D2D9C29F3E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.API.Client", "src\Library\BookShop.API.Client\BookShop.API.Client.csproj", "{7A0FF0A9-4EDD-4DBD-BA26-1D2D9C29F3E3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus", "src\Library\EventBus\EventBus\EventBus.csproj", "{C69EC091-3417-4A8B-A567-DEFF0D3AB6F7}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryTests", "LibraryTests", "{6CBF4ECE-1C48-442F-92CE-3E16BA30D778}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Tests", "src\Library\EventBus\EventBus.Tests\EventBus.Tests.csproj", "{FE6D943D-3636-4BDC-81E1-8C3EFFE8AD78}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -353,6 +355,18 @@ Global
 		{FE6D943D-3636-4BDC-81E1-8C3EFFE8AD78}.Release|x64.Build.0 = Release|Any CPU
 		{FE6D943D-3636-4BDC-81E1-8C3EFFE8AD78}.Release|x86.ActiveCfg = Release|Any CPU
 		{FE6D943D-3636-4BDC-81E1-8C3EFFE8AD78}.Release|x86.Build.0 = Release|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Debug|x64.Build.0 = Debug|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Release|x64.ActiveCfg = Release|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Release|x64.Build.0 = Release|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0AFA508-08A2-432D-A1B1-85BA7A67DB48}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

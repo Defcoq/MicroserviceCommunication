@@ -19,5 +19,6 @@ namespace BookShop.Domain.Entities
         public Genre Genre { get; set; }
         public Guid AuthorId { get; set; }
         public Author Author { get; set; }
+        public bool IsInactive { get; set; }
     }
 }

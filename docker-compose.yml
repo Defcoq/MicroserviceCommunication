@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  bookshop.api:
+    image: ${DOCKER_REGISTRY-}bookshopapi
+    build:
+      context: .
+      dockerfile: src/BookShop.API/Dockerfile
+
+  bookcart.api:
+    image: ${DOCKER_REGISTRY-}bookcartapi
+    build:
+      context: .
+      dockerfile: src/BookCart.API/Dockerfile
+

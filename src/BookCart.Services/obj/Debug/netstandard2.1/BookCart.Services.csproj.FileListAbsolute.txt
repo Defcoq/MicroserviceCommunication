@@ -9,3 +9,7 @@ C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\obj\Debug\netstandard2.1\BookCart.Services.csproj.CopyComplete
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\obj\Debug\netstandard2.1\BookCart.Services.dll
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\obj\Debug\netstandard2.1\BookCart.Services.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\bin\Debug\netstandard2.1\EventBus.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\bin\Debug\netstandard2.1\EventBusRabbitMQ.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\bin\Debug\netstandard2.1\EventBusRabbitMQ.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.Services\bin\Debug\netstandard2.1\EventBus.pdb
