@@ -46,3 +46,4 @@ C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.API\bin\Debug\netcoreapp3.1\BookShop.API.Contract.dll
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.API\bin\Debug\netcoreapp3.1\EventBus.pdb
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.API\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookCart.API\obj\Debug\netcoreapp3.1\BookCart.API.MvcApplicationPartsAssemblyInfo.cache

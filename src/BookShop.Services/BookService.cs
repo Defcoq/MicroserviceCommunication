@@ -55,7 +55,7 @@ ILogger<BookService> logger, EventBusSettings settings, IEventBus eventBus)
             _bookRepository.Update(result);
             await _bookRepository.UnitOfWork.SaveChangesAsync();
 
-           // _eventBus.Publish(new BookDeleteIntegrationEvent(request.Id.ToString())); 
+            _eventBus.Publish(new BookDeleteIntegrationEvent(request.Id.ToString())); 
             SendDeleteMessage(new ItemSoldOutEvent { Id = request.Id.ToString() });
             return _bookMapper.Map(result);
         }

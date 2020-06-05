@@ -27,23 +27,36 @@ namespace BookShop.API
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
+           
+
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
+            this.Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
+     
+
+        public ILifetimeScope AutofacContainer { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-        
+            services
+                 .AddControllers()
+                 .AddJsonOptions(options => options.JsonSerializerOptions.IgnoreNullValues = true);
             services.AddBookShopContext(Configuration.GetSection("DataSource:ConnectionString").Value)
             .AddScoped<IBookRepository, BookRepository>()
             .AddScoped<IAuthorRepository, AuthorRepository>()
             .AddScoped<IGenreRepository, GenreRepository>()
-           // .AddIntegrationServices(Configuration)
-           // .AddEventBus(Configuration)
+           .AddIntegrationServices(Configuration)
+            .AddEventBus(Configuration)
             .AddEventBusCustom(Configuration)
             .AddMappers()
             .AddServices()
@@ -54,6 +67,28 @@ namespace BookShop.API
             container.Populate(services);
 
             return new AutofacServiceProvider(container.Build());
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            var serviceCollection = new ServiceCollection();
+            serviceCollection.AddBookShopContext(Configuration.GetSection("DataSource:ConnectionString").Value)
+           .AddScoped<IBookRepository, BookRepository>()
+           .AddScoped<IAuthorRepository, AuthorRepository>()
+           .AddScoped<IGenreRepository, GenreRepository>()
+          .AddIntegrationServices(Configuration)
+           .AddEventBus(Configuration)
+           .AddEventBusCustom(Configuration)
+           .AddMappers()
+           .AddServices()
+           .AddControllers()
+           .AddValidation();
+
+            builder.Populate(serviceCollection);
+           // var serviceProvider = new AutofacServiceProvider(builder.Build());
+
+            // Register your own things directly with Autofac, like:
+            //   builder.RegisterModule(new MyApplicationModule());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

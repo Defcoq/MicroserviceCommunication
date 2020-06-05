@@ -6,3 +6,8 @@ C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\obj\Debug\netstandard2.1\BookShop.Domain.AssemblyInfo.cs
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\obj\Debug\netstandard2.1\BookShop.Domain.dll
 C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\obj\Debug\netstandard2.1\BookShop.Domain.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\bin\Debug\netstandard2.1\EventBus.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\bin\Debug\netstandard2.1\EventBusRabbitMQ.dll
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\bin\Debug\netstandard2.1\EventBusRabbitMQ.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\bin\Debug\netstandard2.1\EventBus.pdb
+C:\Worksapce\Dot.netCoreSample\Hands-On RESTful Web Services with ASP.NET Core 3\DemoLocal\BookShop.API\src\BookShop.Domain\obj\Debug\netstandard2.1\BookShop.Domain.csproj.CopyComplete

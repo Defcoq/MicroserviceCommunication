@@ -58,6 +58,9 @@ namespace BookShop.API.Migrations
                     b.Property<Guid>("GenreId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("IsInactive")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LabelName")
                         .HasColumnType("nvarchar(max)");
 

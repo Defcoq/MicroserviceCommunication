@@ -60,5 +60,16 @@ namespace BookShop.API.Controllers
             var result = await _bookService.EditBookAsync(request);
             return Ok(result);
         }
+
+        [HttpDelete("{id:guid}")]
+        [BookExists]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var request = new DeleteBookRequest { Id = id };
+
+            await _bookService.DeleteBookAsync(request);
+
+            return NoContent();
+        }
     }
 }
