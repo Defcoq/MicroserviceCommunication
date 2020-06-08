@@ -1,0 +1,37 @@
+version: "3.7"
+services:
+
+
+  bookshop_db:
+    container_name: bookshop_db
+    image: mcr.microsoft.com/mssql/server:2017-latest 
+    networks:
+      - my_network
+    env_file:
+      - Containers/db/db.env
+    ports:
+      - "5433:1433"
+
+  bookshop_esb:
+    container_name: bookshop_esb
+    image: rabbitmq:3-management-alpine
+    networks:
+      - my_network
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+
+  cart_db:
+    container_name: cart_db
+    image: redis:alpine
+    networks:
+      - my_network
+    env_file:
+      - Containers/cart/cart.env
+    ports:
+      - 6378:6378
+        
+      
+networks:
+  my_network:
+    driver: bridge
